@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(8, 44, 5);
+    display: flex;
+    justify-content: center;
+}
+.block {
+    background-color:rgb(245, 237, 239);
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    color: rgb(16, 126, 12);
+}
+
+form {
+    margin: 40px;
+}
+
+input {
+    width: 70%;
+    height: 30%;
+}
+div {
+    margin: 5%;
+}
