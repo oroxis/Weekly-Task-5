@@ -1,17 +1,26 @@
 main {
     background-color: brown;
-    height: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: center;
 }
 
 form {
     color: cornsilk;
-    padding: 5%;
 }
+
 h1 {
-    padding: 5%;
-    color: cornsilk;
+    color: rgb(10, 9, 3);
 }
+
 input {
-    margin: 1%;
-    width: 50%;
+    
+    width: 30%;
+    height: 7%;
+}
+#submit {
+    width: 10%;
+
 }

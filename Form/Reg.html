@@ -13,22 +13,22 @@
     
     <h1>Registration Form</h1>
     <form name="forms" onsubmit="return validateForm()" method = "POST">
-        <label for="name">First Name:</label>
+        <label for="name">First Name:</label><br>
         <input type="text" id="fName" name="firstName" placeholder="First Name" required minlength="8" maxlength="12"><br>
-        <label for="name">Last Name:</label>
+        <label for="name">Last Name:</label><br>
         <input type="text" id="lName" name="lastName" placeholder="Last Name" required minlength="8" maxlength="12"><br>
-        <label for="name">Email Address: </label>
+        <label for="name">Email Address: </label><br>
         <input type="text" id="email" name="eMail" placeholder="E-mail address" pattern="+[@]" required><br>
-        <label for="uname">Username: </label>
+        <label for="uname">Username: </label><br>
         <input type="text" id="uname" name="Uname" placeholder="Username" required minlength="7" maxlength="7" pattern= "+[a-zA-Z][0-9]{1}[@#$%^&*]"><br>
-        <label for="pword">Password:</label>
+        <label for="pword">Password:</label><br>
         <input type="text" id="passW" name="pass" placeholder="Password" required min="6"><br>
-        <label for="repword">Retype Password:</label>
+        <label for="repword">Retype Password:</label><br>
         <input type="text" id="rePass" name="repass" placeholder="Re-type Password" required min="6"><br>
 
         <P>Please take note that all fields are required!!!</P>
 
-        <input type="submit" value="Submit">
+        <input id="submit" type="submit" value="Submit">
 
     </form>
 </main>
