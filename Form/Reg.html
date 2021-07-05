@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Reg.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <main>
+
+    
+    <h1>Registration Form</h1>
+    <form name="forms" onsubmit="return validateForm()" method = "POST">
+        <label for="name">First Name:</label>
+        <input type="text" id="fName" name="firstName" placeholder="First Name" required minlength="8" maxlength="12"><br>
+        <label for="name">Last Name:</label>
+        <input type="text" id="lName" name="lastName" placeholder="Last Name" required minlength="8" maxlength="12"><br>
+        <label for="name">Email Address: </label>
+        <input type="text" id="email" name="eMail" placeholder="E-mail address" pattern="+[@]" required><br>
+        <label for="uname">Username: </label>
+        <input type="text" id="uname" name="Uname" placeholder="Username" required minlength="7" maxlength="7" pattern= "+[a-zA-Z][0-9]{1}[@#$%^&*]"><br>
+        <label for="pword">Password:</label>
+        <input type="text" id="passW" name="pass" placeholder="Password" required min="6"><br>
+        <label for="repword">Retype Password:</label>
+        <input type="text" id="rePass" name="repass" placeholder="Re-type Password" required min="6"><br>
+
+        <P>Please take note that all fields are required!!!</P>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</main>
+    <script src="./Reg.js"></script>
+</body>
+</html>

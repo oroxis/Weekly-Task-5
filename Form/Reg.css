@@ -1,0 +1,17 @@
+main {
+    background-color: brown;
+    height: 600px;
+}
+
+form {
+    color: cornsilk;
+    padding: 5%;
+}
+h1 {
+    padding: 5%;
+    color: cornsilk;
+}
+input {
+    margin: 1%;
+    width: 50%;
+}
